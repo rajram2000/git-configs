@@ -2,6 +2,7 @@
 	gst = git
 	st = status
 	di = diff
+	cln = clean
 	co = checkout
 	com = checkout master
 	coremote = checkout --track
