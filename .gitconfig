@@ -3,28 +3,28 @@
 	name = rajram
 [alias]
 	gst = git
-	st = status
-	di = diff
-	co = checkout
-	com = checkout master
-	coremote = checkout --track -b
-	ci = commit
-	cp = cherry-pick
-	br = branch
-	bra = branch -a
-	brd = branch -d
-	brdremote = push --delete origin
-	sta = stash
-	llog = log --date=local
-	flog = log --pretty=fuller --decorate
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	lol = log --graph --decorate --oneline
-	lola = log --graph --decorate --oneline --all
-	blog = log origin/master... --left-right
-	ds = diff --staged
-	fixup = commit --fixup
-	squash = commit --squash
-	unstage = reset HEAD
-	rum = rebase master@{u}
-	prune = fetch --prune
-	clean = clean -fd
+        st = status
+        di = diff
+        co = checkout
+        com = checkout master
+        coremote = checkout --track
+        ci = commit
+        cp = cherry-pick
+        br = branch
+        bra = branch -a
+        brd = branch -d
+        brdremote = push --delete origin
+        sta = stash
+        llog = log --date=local
+        flog = log --pretty=fuller --decorate
+        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+        lol = log --graph --decorate --oneline
+        lola = log --graph --decorate --oneline --all
+        blog = log origin/master... --left-right
+        ds = diff --staged
+        fixup = commit --fixup
+        squash = commit --squash
+        unstage = reset HEAD
+        rum = rebase master@{u}
+        fetchprune = fetch --prune
+        clean = clean -fd
