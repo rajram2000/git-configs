@@ -28,3 +28,4 @@
         rum = rebase master@{u}
         fetchprune = fetch --prune
         clean = clean -fd
+	restamp = commit --amend --reset-author --no-edit
