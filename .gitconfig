@@ -6,13 +6,12 @@
         st = status
         di = diff
         co = checkout
-        com = checkout master
-        coremote = checkout --track
+        cod = checkout develop
         ci = commit
         cp = cherry-pick
         br = branch
         bra = branch -a
-        brd = branch -d
+        brd = branch -D
         brdremote = push --delete origin
         sta = stash
         llog = log --date=local
