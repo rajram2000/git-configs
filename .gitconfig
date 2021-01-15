@@ -25,6 +25,6 @@
         squash = commit --squash
         unstage = reset HEAD
         rum = rebase master@{u}
-        fetchprune = fetch --prune
-        clean = clean -fd
+        fp = fetch --prune
+        cln = clean -fd
 	restamp = commit --amend --reset-author --no-edit
